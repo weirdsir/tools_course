@@ -1,3 +1,4 @@
+
 import tkinter as tk
 
 class AlphabetApp(tk.Tk):
@@ -21,3 +22,10 @@ class AlphabetApp(tk.Tk):
 if __name__ == "__main__":
     app = AlphabetApp()
     app.mainloop()
+
+alphabet = []
+for letter in range(ord('a'), ord('z')+1):
+    alphabet.append(chr(letter))
+
+print("Alphabet:", alphabet)
+
