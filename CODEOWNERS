@@ -1,0 +1,10 @@
+# Assigning code owners
+
+# Assigning dkrpv as the owner of main.py
+main.py   @dkrpv
+
+# Assigning weirdsir as the owner of hello_world.py
+hello_world.py   @weirdsir
+
+# Assigning yoinkeds as the owner of randominumber.py
+randominumber.py   @yoinkeds
