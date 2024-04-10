@@ -1,6 +1,7 @@
 import random
-
+#creating list
 rand_list=[]
+
 n=10
 for i in range(n):
     rand_list.append(random.randint(2,2000))
